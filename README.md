@@ -1,2 +1,4 @@
 # NBA_Predictions
-Predict outcome of NBA games using python
+Used python to predict the winners of NBA games with a 63.08% prediction accuracy.
+
+The NBA predictions Python program is a data-driven solution that leverages various libraries and techniques to forecast game outcomes. It starts by using Playwright to extract up-to-date NBA game box scores, generating clean and structured data through Beautiful Soup and pandas. This data is then organized into a machine-friendly data frame for subsequent analysis. The program employs Sequential Feature Selection to identify and prioritize key factors influencing NBA game results. To make predictions, it applies the Ridge Regression algorithm, achieving an accuracy rate of 63.08%. Overall, this program demonstrates the power of data science and machine learning in providing insights into the outcomes of NBA games.
